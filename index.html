@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/assets/css/global.css">
+  <link rel="stylesheet" href="/assets/css/header.css">
+  <link rel="stylesheet" href="/assets/css/accordion.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div class="main">
+    <header class="header">
+      <img src=" " alt="" class="img-header" id="profile.photo">
+      <div class="content">
+        <h1 class="title">Olá,<br> eu sou <span id="profile.name"></span></h1>
+        <ul class="contact-information">
+          <li class="job" id="profile.job"></li>
+          <li class="location" id="profile.location"></li>
+          <li class="phone" id="profile.phone"></li>
+          <li class="email" id="profile.email"></li>
+        </ul>
+      </div>
+    </header>
+
+    <section>
+      <div class="accordion-item">
+        <div class="accordion-header">
+          <h3>Skills</h3>
+          <span class="accordion-icon">▼</span>
+        </div>
+        <div class="accordion-content">
+          <h3>Habilidades Técnicas:</h3>
+          <ul id="profile.hardSkills">
+          </ul>
+          <h3>Habilidades Pessoais:</h3>
+          <ul id="profile.softSkills">
+          </ul>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <div class="accordion-header">
+          <h3>Idiomas</h3>
+          <span class="accordion-icon">▼</span>
+        </div>
+        <div class="accordion-content">
+          <ul id="profile.lang"></ul>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <div class="accordion-header">
+          <h3>Educação</h3>
+          <span class="accordion-icon">▼</span>
+        </div>
+        <div class="accordion-content">
+          <p>Cursando Engenharia de Software - Estácio</p>
+          <p><b>Certificados (DIO.me):</b></p>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Lógica de Programação</li>
+            <li>JavaScript (em andamento)</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <div class="accordion-header">
+          <h3>Portfólio</h3>
+          <span class="accordion-icon">▼</span>
+        </div>
+        <div class="accordion-content">
+          <div id="portfolio.list"></div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <div class="accordion-header">
+          <h3>Experiência Profissional</h3>
+          <span class="accordion-icon">▼</span>
+        </div>
+        <div class="accordion-content" id="professional-experience-list">
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script src="/assets/js/accordion.js"></script>
+  <script src="/assets/js/api.js"></script>
+  <script src="/assets/js/main.js"></script>
+</body>
+
+</html>

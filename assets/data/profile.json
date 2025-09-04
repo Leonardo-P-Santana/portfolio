@@ -1,0 +1,63 @@
+{
+  "name": "Leonardo P Santana",
+  "photo": "/assets/img/my-photo.png",
+  "job": "Estudante de Desenvolvimento Web",
+  "location": "Franca - SP",
+  "phone": "(16) 99415-6294",
+  "email": "leo_131107@hotmail.com",
+  "skills": {
+    "hardSkills": [
+      {
+        "name": "HTML"
+      },
+      {
+        "name": "CSS"
+      },
+      {
+        "name": "Javascript"
+      }
+    ],
+    "softSkills": [
+      "Empatia",
+      "Comunicação",
+      "Trabalho em equipe",
+      "Flexibilidade",
+      "Organização"
+    ]
+  },
+  "languages": ["Português BR"],
+  "portfolio": [
+    {
+      "name": "Pokedex com JavaScript",
+      "url": "https://github.com/Leonardo-P-Santana/js-developer-pokedex",
+      "github": true
+    },
+    {
+      "name": "Desafio com Bootstrap",
+      "url": "https://github.com/Leonardo-P-Santana/desafio-bootstrap",
+      "github": true
+    },
+    {
+      "name": "Desafio final CSS/HTML",
+      "url": "https://github.com/Leonardo-P-Santana/desafio-final-css",
+      "github": true
+    }
+  ],
+  "experiencias": [
+    {
+      "cargo": "Especialista de Marketplace CX - Loja do Mecânico",
+      "periodo": "📅 Out/2024 - Mai/2025",
+      "descricao": "Gestão de processos em Marketplaces (MeLi, Shopee, Via Varejo, etc.), foco em pós-venda e satisfação do cliente."
+    },
+    {
+      "cargo": "Assistente de Operações Especiais II - Magazine Luiza",
+      "periodo": "📅 Nov/2021 - Abr/2023",
+      "descricao": "Atendimento via redes sociais, resolução de problemas e suporte ao cliente."
+    },
+    {
+      "cargo": "Agente de Relacionamento - Magazine Luiza",
+      "periodo": "📅 Jan/2020 - Nov/2021",
+      "descricao": "Atendimento ao cliente, suporte em processos e relacionamento."
+    }
+  ]
+}

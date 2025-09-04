@@ -1,0 +1,114 @@
+.accordion-item {
+  margin: 1rem;
+}
+
+.accordion-header {
+  background: transparent;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  padding: 1.5rem 1.25rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.accordion-header.active {
+  background: rgba(85, 86, 158, 1);
+  border-radius: 10px 10px 0 0;
+  border: none;
+}
+
+.accordion-header h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.accordion-icon {
+  transition: transform 0.3s ease;
+}
+
+.accordion-header.active .accordion-icon {
+  transform: rotate(180deg);
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  background: rgba(85, 86, 158, 1);
+  padding: 0 20px;
+  transition: all 0.3s ease;
+  border-radius: 0 0 10px 10px;
+}
+
+.accordion-content p,
+.accordion-content ul {
+  margin: 15px 0;
+  padding: 0;
+}
+
+.accordion-content ul {
+  list-style: none;
+}
+
+.accordion-content li {
+  padding: 0.2rem 0;
+}
+
+.accordion-content li::before {
+  content: "";
+  display: inline-block;
+  width: 1rem;
+  height: 0.6rem;
+  background-image: url(/assets/icons/check.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 0.5rem;
+}
+
+.accordion-content a {
+  color: #ffd700;
+  text-decoration: none;
+}
+
+.accordion-content a:hover {
+  text-decoration: underline;
+}
+
+.github-icon::before {
+  content: "";
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  background-image: url(/assets/icons/github.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 0.5rem;
+}
+
+.portfolio-item {
+  margin-bottom: 1.3rem;
+}
+
+.portfolio-item strong,
+.portfolio-item a {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.portfolio-item a {
+  color: #fff;
+  font-size: 0.9rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+@media screen and (min-width: 768px) {
+  .accordion-header:hover {
+    background-color: rgba(85, 86, 158, 1);
+  }
+  .accordion-item {
+    max-width: 900px;
+    margin: 3rem auto;
+  }
+}
