@@ -1,6 +1,6 @@
 {
   "name": "Leonardo P Santana",
-  "photo": "assets/img/my-photo.png",
+  "photo": "../img/my-photo.png",
   "job": "Estudante de Desenvolvimento Web",
   "location": "Franca - SP",
   "phone": "(16) 99415-6294",
