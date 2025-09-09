@@ -95,5 +95,4 @@ function updateProfissionalExperience(profileData) {
   updateEducation(profileData);
   updatePortfolio(profileData);
   updateProfissionalExperience(profileData);
-  console.log(profileData);
 })();
